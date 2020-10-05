@@ -1,4 +1,7 @@
 language: emacs-lisp
+arch:
+  - amd64
+  - ppc64le
 env:
   matrix:
     - EMACS=emacs24
